@@ -1,0 +1,88 @@
+@import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(/images/pexels-tom-fisk-3848788.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+} 
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+    animation-duration: 10s;
+}
+.contact-title h2{
+    font-size: 16px;
+    animation-duration: 10s;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: auto;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: #0BEAF9;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+    transition: 0.5s;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+header .navigation a{
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+letter-spacing: 1px;
+padding: 2px 15px;
+border-radius: 20px;
+transition: 0.3s;
+transition-property: background;
+}
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header.navigation a:hover{
+ background: blue;
+}

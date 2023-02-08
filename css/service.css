@@ -1,0 +1,11 @@
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.items{
+    height: 500px;
+    margin: 2rem;
+    width: 45%;
+    background-color: crimson;
+}
