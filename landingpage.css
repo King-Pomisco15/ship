@@ -12,7 +12,7 @@ section{
     display : flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(/images/pexels-tom-fisk-1427107.jpg);
+    background: url(pexels-tom-fisk-1427107.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
